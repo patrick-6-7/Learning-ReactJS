@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cardArea {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: hsl(206, 15%, 9%);
+}
+
+.card{
+	display: block;
+	margin: 30px;
+	width: 400px;
+	box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.783);
+	border-radius: 4px;
+	overflow: hidden; 
+}
+
+.ReactLogoDiv {
+  background-color: black;
+  padding: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactLogo {
+  width: 100%;
+  height: auto;  
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.Content {
+	background-color: hsl(0, 0%, 12%);
+	text-align: left;
+	padding: 16px
+}
+
+.Content h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;  /* Regular weight */
+	font-size: 24px;   /* Adjust as needed */
+	color: white;
+	margin-bottom: 8.4px;
+}
+
+.Content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;   /* Adjust as needed */
+	color: hsl(180, 3%, 65%);
+}
+
+.Footer {
+	background-color: hsl(0, 0%, 12%);
+	padding: 8px 8px 16px 8px;
+	text-align: left;
+}
+
+.Footer span{
+	font-family: 'Roboto', sans-serif;
+	padding: 8px;
+	text-align: center;
+	color: #90CAF9;
+	font-size: 13px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.4s ease;
+}
+
+.Footer span:hover {
+	background-color: #90caf91a;
+}
+
+
+.Footer a {
+  text-decoration: none; /* removes underline */
+  color: inherit;        /* uses the same color as span (inherited) */
+}
+
+.Footer a:hover {
+  text-decoration: none; /* ensures no underline on hover */
+  color: inherit;        /* ensures color remains the same on hover */
+}
